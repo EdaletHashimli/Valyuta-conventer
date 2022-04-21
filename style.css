@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#header-img {
+	width: 100%;
+	height: auto;
+
+}
+
+main {
+	margin-left: 23%;
+	margin-top: 7%;
+}
+
+.active {
+	background-color: #833AE0;
+}
+
+.active_2 {
+	background-color: #833AE0;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.main-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 85%;
+	height: 35vh;
+}
+
+.main-left {
+	width: 45%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
+}
+
+.main-right {
+	width: 45%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.items {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+
+}
+
+.item {
+
+	width: 40%;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	padding: 2%;
+}
+
+.item:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.item:last-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.items_2 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+
+}
+
+.item_2 {
+
+	width: 40%;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	padding: 1.5%;
+}
+
+.item_2:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.item_2:last-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.input-text {
+	border-style: none;
+	font-size: 20px;
+}
+
+
+
+.input-left {
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	padding-top: 2%;
+	padding-left: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#input {
+	height: 90px;
+	font-size: 60px;
+	width: 90%;
+	border: none;
+}
+
+#input:focus {
+	outline: none;
+}
+
+
+
+.output-text {
+	border-style: none;
+	font-size: 20px;
+}
+
+#output:focus {
+	outline: none;
+}
+
+
+.input-right {
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	padding-top: 2%;
+	padding-left: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#output {
+	height: 90px;
+	font-size: 60px;
+	width: 90%;
+	border: none;
+}
