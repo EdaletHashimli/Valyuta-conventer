@@ -7,4 +7,4 @@ Netlify app
 
 
 
-https://chipper-dieffenbachia-c50174.netlify.app/
+https://online-valyuta-cevirici.netlify.app
